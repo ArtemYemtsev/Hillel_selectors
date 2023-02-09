@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/examples.css">
+    <title>DZ5. Selectors examples</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Селекторы css</h1>
+        <a href="/">Вернуться к описанию селекторов</a>
+    </header>
+    <main class="main_examples">
+        <p class="main_header">
+            Примеры использования разных типов селекторов:
+        </p>
+        <!-- Универсальный селектор установил шрифт Arial -->
+        <!-- Для всех div использован селектор по названию элемента -->
+        <div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, odio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure, nam quisquam hic pariatur voluptate veniam maxime voluptatem in quam!
+            </p>
+        </div>
+        <!-- Селектор по id -->
+        <div id="block2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, labore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure, nam quisquam hic pariatur voluptate veniam maxime voluptatem in quam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reiciendis molestias illo. Tempora illum dolore fugit impedit quasi suscipit accusantium earum rerum eos. Reprehenderit vel facere deserunt esse molestias. Nulla consequatur sapiente ratione maxime aliquam voluptas eligendi quidem velit vero temporibus animi ex voluptate, corporis architecto vitae consectetur? Consectetur, dignissimos.
+            </p>
+        </div>
+        <!-- Селектор по классу -->
+        <div class="block3">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, veniam.
+            </p>
+        </div>
+        <!-- Селектор по нескольким классам -->
+        <div class="block4_1 block4_2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, incidunt.
+            </p>
+        </div>
+        <!-- Селектор по вложенности ul li -->
+        <div>
+            <ul>
+                <li>Первый элемент</li>
+                <li>Второй элемент</li>
+                <li>Третий элемент</li>
+                <li>Четвертый элемент</li>
+            </ul>
+        </div>
+        <!-- Пример дочернего селектора -->
+        <div>
+            <p>Lorem ipsum <span><a href="#">dolor</a></span> sit amet consectetur adipisicing elit. Iure, cumque!</p>
+            <p>Lorem ipsum <a href="#">dolor</a> sit amet consectetur adipisicing elit. Iure, cumque!</p>
+        </div>
+        <!-- Пример соседнего селектора -->
+        <div>
+            <p><span>Lorem</span> ipsum <i>dolor</i> sit amet consectetur adipisicing elit. Iure, cumque!</p>
+            <p>Lorem ipsum <i>dolor</i> sit amet consectetur adipisicing elit. Iure, cumque!</p>
+        </div>
+        <!-- Пример родственного селектора -->
+        <div>
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illo!</p>
+        </div>
+    </main>
+</body>
+</html>

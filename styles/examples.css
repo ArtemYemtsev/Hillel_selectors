@@ -1,0 +1,63 @@
+.main_examples{
+    background: #DCDCDC;
+    padding: 10px 20px;
+    color: #FFF;
+    border: 2px solid gray;
+}
+/*Пример селектора по названию элемента*/
+div {
+    background: gray;
+    padding: 5px 10px;
+    margin: 5px;
+}
+/*Пример селектора по id*/
+#block2{
+    background: #82b6b6;
+    color: #800000;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Пример селелектора по классу*/
+.block3{
+    background: #8ae291;
+    color: #065728;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+/*Пример селектора с несколькими классами*/
+.block4_1{
+    background: #92a2da;
+    color: #10319e;
+}
+.block4_2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+/*Пример селектора по вложенности*/
+ul li{
+    background: rgb(223, 154, 5);
+    width: 200px;
+    color: black;
+    margin: 5px;
+    padding: 2px;
+}
+/*Пример универсального селектора*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Пример дочернего селектора*/
+span>a{
+    color: red;
+}
+/*Пример соседнего селектора*/
+span+i{
+    color: orange;
+    font-weight: bold;
+}
+/*Пример родственного селектора*/
+h3~p{
+    color: brown;
+    font-weight: bold;
+    margin: 5px 0;
+}
