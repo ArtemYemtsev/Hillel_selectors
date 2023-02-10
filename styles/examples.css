@@ -1,63 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main_examples{
     background: #DCDCDC;
     padding: 10px 20px;
-    color: #FFF;
     border: 2px solid gray;
 }
+
 /*Пример селектора по названию элемента*/
 div {
     background: gray;
-    padding: 5px 10px;
-    margin: 5px;
+    color: #FFF;
+    border: 5px solid #DCDCDC;
+}
+p{
+    margin: 0;
+    padding: 10px;
 }
 /*Пример селектора по id*/
 #block2{
     background: #82b6b6;
     color: #800000;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*Пример селелектора по классу*/
 .block3{
     background: #8ae291;
     color: #065728;
-    font-size: 18px;
-    letter-spacing: 5px;
 }
 /*Пример селектора с несколькими классами*/
 .block4_1{
     background: #92a2da;
-    color: #10319e;
 }
 .block4_2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-style: italic;
+    color: #9e0721;
 }
-/*Пример селектора по вложенности*/
-ul li{
-    background: rgb(223, 154, 5);
-    width: 200px;
-    color: black;
-    margin: 5px;
-    padding: 2px;
+/* вложеный */
+div div{
+    background: #065728;
+    color: #FFF;
+    border: none;
 }
-/*Пример универсального селектора*/
-*{
-    font-family: Arial, Helvetica, sans-serif;
+section h3{
+    margin: 0 0 0 5px;
 }
 /*Пример дочернего селектора*/
-span>a{
-    color: red;
+section>div{
+    background: #e94f97;
+    color: antiquewhite;
 }
-/*Пример соседнего селектора*/
-span+i{
-    color: orange;
-    font-weight: bold;
+.block7{
+    background: #360a47a1;
+    color: #b871d4e3;
 }
-/*Пример родственного селектора*/
-h3~p{
-    color: brown;
-    font-weight: bold;
-    margin: 5px 0;
+#block8{
+    background: green;
+    color: #8ce0af;
+}
+.block9{
+    color: black;
+    background: #f1cd54;
+}
+.block10_1{
+    color: gray;
+}
+.block10_2{
+    background: white;
 }
